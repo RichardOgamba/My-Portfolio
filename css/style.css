@@ -1,0 +1,21 @@
+body{
+	background-image: url("6.jpg");
+}
+h1{
+	color: White;
+	text-align: center;
+	line-height: inherit;
+}
+p{
+	color: White;
+	text-align: center;
+	font-style: italic;
+}
+ol{
+	font-family: monospace;
+	color: White;
+	text-align: center;
+}
+li{
+	text-align: center;
+}
