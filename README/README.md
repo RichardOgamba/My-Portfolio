@@ -11,7 +11,7 @@
 {the langage used mainly in this page is HTML and CSS.}
 ## Support and contact details
 {Incase of any bug contact me richardogamba@gmail.com.
-To view page go to https://RichardOgamba.github.io/My-portfolio}
+To view page go to https://RichardOgamba.github.io/}
 ### License
 *{MIT License
 

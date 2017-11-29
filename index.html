@@ -1,21 +1,68 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 		<link href="css/style.css"  rel="stylesheet" type="text/css"/>
 		<title>My Portfolio</title>
 	</head>
 	<body>
+		<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">Richard Ogamba</a>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#projects">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#About Me">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contacts">Contacts</a>
+      </li>
+			<li class="nav-item">
+				<a class="nav-link" href="#pictures">Pictures Of Me</a>
+			</li>
+
+    </ul>
+  </div>
+</nav>
+
 		<h1>My Portfolio</h1>
-		<p>My name is <strong>Richard Japheth Ogamba</strong>. I am currently a student developer at Moringa School.<br />
-		Coding is my current hobby and my first interest</p>
-		<p>My current projects in <em>Github</em> include:</p>
+		<div class="sidebar" id="home">
+			<p class="column"> My name is <strong>Richard Japheth Ogamba</strong>. I am currently a student developer at Moringa School.<br />
+				Coding is my current hobby and my first interest</p>
+		</div>
+		<div class="column" id="projects">
+			<p>My current projects in <em>Github</em> include:</p>
+			<ol>
+				<li><a href="https://RichardOgamba.github.io/my-first-website">My first website</a></li>
+				<li><a href="https://github.com/RichardOgamba/my-pet-assignment.git">My pet</a></li>
+				<li>Hello world</li>
+				<li>HTML assignment</li>
+			</ol>
+		</div>
+		<div class="column" id="About Me">
+			<p>I am Richard.Icome from Kisii. I am a software developer by profesion. I also do professional videographer especially I do cover
+				weddings, graduations, Bithday cermonies and many more. I was born in 17/10/1997 in Uthiru. I currently live in Nairobi.</p>
+		</div>
+		<div class="column" id="contacts">
+		<p>Incase you want to find me:</p>
 		<ol>
-			<li><a href="https://RichardOgamba.github.io/my-first-website">My first website</a></li>
-			<li><a href="https://github.com/RichardOgamba/my-pet-assignment.git">My pet</a></li>
-			<li>Hello world</li>
-			<li>HTML assignment</li>
+			<li>Email:ogambarichard20@gmail.com</li>
+			<li>Mobile:0790754752 ;0738540974</li>
+			<li>Facebook:Richard Ogamba</li>
 		</ol>
-		<img src="richie1.jpg" alt="Richard Ogamba"/>
-		<img ismap src="richie.jpg" alt="Richie"/>
+		</div>
+		<div class="round" id="pictures">
+			<img src="richie1.jpg" alt="Richard Ogamba"/>
+			<img ismap src="richie.jpg" class="border" class="padding" alt="Richie"/>
+		</div>
+
 	</body>
 </html>

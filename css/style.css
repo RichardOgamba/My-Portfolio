@@ -1,5 +1,6 @@
 body{
-	background-image: url("6.jpg");
+	background-color: lightblue;
+
 }
 h1{
 	color: White;
@@ -18,4 +19,7 @@ ol{
 }
 li{
 	text-align: center;
+}
+img{
+	float: left;
 }
